@@ -51,7 +51,7 @@ body #loading-page .loader {
 }
 
 .loader::after {
-    top: calc(((50%) * 0.25) + (80px));
+    top: calc(50%) * 0.25 + (80px);
     height: 65px;
     animation-duration: 15s;
 }
@@ -1033,7 +1033,7 @@ footer {
     }
 
     .loader::after {
-        top: calc(((50%) * 0.25) + (80px));
+        top: calc(50%) * 0.25 + (80px);
         height: 65px;
         animation-duration: 15s;
     }
