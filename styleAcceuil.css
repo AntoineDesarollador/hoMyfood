@@ -189,6 +189,13 @@ p {
     justify-content: center;
 }
 
+
+#button a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
 .button {
     background: linear-gradient(#FF79DA, #9356DC);
     border-radius: 30px;
@@ -240,7 +247,7 @@ p {
 .category:active {
     background: rgba(147, 86, 220, 0.1);
     border-radius: 20px;
-    width: 85%;
+    width: 90%;
 }
 
 /* SUB-CATEGORY-FONCTIONNEMENT-SECTION */
@@ -384,7 +391,6 @@ p {
     width: 5%;
     height: 3%;
     fill: #9356DC;
-    stroke: #9356DC;
     z-index: 9999;
 
 }
@@ -396,7 +402,6 @@ p {
     /* visibility: visible; */
     /* display: contents; */
     fill: #9356DC;
-    stroke: #9356DC;
     z-index: 9999;
 }
 
@@ -683,7 +688,13 @@ footer {
     .category:active {
         background: rgba(147, 86, 220, 0.1);
         border-radius: 20px;
-        width: 85%;
+        width: 25%;
+    }
+
+    .category:hover {
+        background: rgba(147, 86, 220, 0.1);
+        border-radius: 20px;
+        width: 25%;
     }
 
     /* SUB-CATEGORY-FONCTIONNEMENT-SECTION */
@@ -840,7 +851,6 @@ footer {
         fill: #9356DC;
         stroke: none;
         z-index: 9999;
-
     }
 
     .svg-restaurant:active #heart1 {
@@ -1051,7 +1061,7 @@ footer {
     .category:active {
         background: rgba(147, 86, 220, 0.1);
         border-radius: 20px;
-        width: 85%;
+        width: 30%;
     }
 
     /* SUB-CATEGORY-FONCTIONNEMENT-SECTION */
@@ -1224,7 +1234,7 @@ footer {
 
     footer {
         background: #3e3e3e;
-        height: 290px;
+        height: 250px;
     }
 
     #footer {
