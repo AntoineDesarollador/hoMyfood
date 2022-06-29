@@ -123,7 +123,8 @@ p {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 7px auto;
+    /* margin: 7px auto; */
+    padding-top: 10px;
     margin-bottom: 0px;
 }
 
@@ -137,7 +138,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: #e9e9e9;
+    border-top: 1px solid #d2d2d2;
     margin: 5px;
     margin-bottom: 0px;
 }
@@ -425,11 +427,14 @@ footer {
 
 #footer {
     padding: 5px 13px;
-    padding: 5px 13px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+}
+
+#footer img {
+    width: 30%;
+    margin-bottom: 5px;
 }
 
 #footer h4 {
@@ -578,7 +583,6 @@ footer {
         align-items: center;
         justify-content: space-between;
         display: flex;
-        margin: 17px auto;
         margin-bottom: 0px;
     }
 
@@ -588,7 +592,8 @@ footer {
     #mapping {
         width: 100%;
         margin-bottom: 0px;
-        background: #99e2d0;
+        background: #e9e9e9;
+        border-top: 1px solid #d2d2d2;
     }
 
     #mapping p {
@@ -606,7 +611,6 @@ footer {
     /* RESERVATION-SECTION */
     #Reservation-section {
         background-color: #f8F8F8;
-        margin-top: 20px;
         border-top: 2px solid #f2f2f2;
         border-bottom: 2px solid #f2f2f2;
         padding-top: 20px;
@@ -844,6 +848,8 @@ footer {
         z-index: 9999;
     }
 
+
+
     .svg-restaurant:active #heart2 {
         opacity: 1;
         width: 5%;
@@ -871,7 +877,6 @@ footer {
 
     footer {
         background: #3e3e3e;
-        height: 70px;
     }
 
     #footer {
@@ -880,6 +885,12 @@ footer {
         flex-direction: row;
         width: 100%;
         padding: 0px;
+    }
+
+    #footer img {
+        width: 10%;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }
 
     #footer h4 {
@@ -909,7 +920,7 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     #logo {
-        width: 40%;
+        width: 30%;
     }
 
     body {
@@ -956,7 +967,8 @@ footer {
         margin: 5px;
         margin-bottom: 0px;
         border-radius: 0px;
-        background: whitesmoke;
+        background: #e9e9e9;
+        border-top: 1px solid #d2d2d2;
     }
 
     #mapping p {
@@ -1234,7 +1246,7 @@ footer {
 
     footer {
         background: #3e3e3e;
-        height: 250px;
+        height: 240px;
     }
 
     #footer {
@@ -1243,6 +1255,12 @@ footer {
         display: flex;
         flex-direction: row;
         padding: 0px 13px;
+    }
+
+    #footer img {
+        width: 15%;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }
 
     #footer h4 {
