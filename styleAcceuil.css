@@ -346,6 +346,8 @@ p {
 /* PARAGRAPHE-RESTAURANT-SECTION */
 /* PARAGRAPHE-RESTAURANT-SECTION */
 
+
+
 .restaurant-paragraphe {
     margin-left: 10px;
     width: 85%;
@@ -365,6 +367,8 @@ p {
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 .heart-container {
     position: relative;

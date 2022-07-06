@@ -186,6 +186,12 @@ p {
     height: 80px;
 }
 
+#titre-svg .svg {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
 #titre-svg h1 {
     bottom: 70px;
     /* letter-spacing: 10px; */
